@@ -1,0 +1,14 @@
+{
+  "name": "chat-space-data-api",
+  "version": "1.0.0",
+  "description": "Data persistence API for Chat Space",
+  "main": "data-server.js",
+  "scripts": {
+    "start": "node data-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lowdb": "^7.0.1"
+  }
+}
